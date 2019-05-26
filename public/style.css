@@ -1,0 +1,88 @@
+/**
+ * Fix user-agent
+ */
+
+{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.bvc
+{
+	
+	 display: flex;
+	 background-color: white;
+	
+}
+.tabla {
+ 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+
+.dugmici {
+  position: relative;
+  display: inline-flex;
+ background-color: white;
+border-bottom: 6px solid black;	
+border-top: 6px solid black;	
+border-right: 6px solid black;	
+ 
+}
+
+.izborboje
+{   
+	margin right: 40px;
+	position: relative;
+    display: inline-flex;
+	border-bottom: 6px solid black;	
+	border-top: 6px solid black;	
+ 	 
+	
+    
+}
+
+.velicina
+{ 
+  font-size: 24px;	
+  display: inline-block;
+  height: 48px;
+  width: 144px;
+  
+	
+}
+
+
+.boje
+{
+  display: inline-block;
+  height: 48px;
+  width: 144px;
+  background-color: white;
+	
+}
+
+
+
+
+
+

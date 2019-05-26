@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla za crtanje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas class="tabla" id="canvas"></canvas>
+  <div class="bvc">
+	
+	<div class="dugmici">
+	 <label>&nbsp;&nbsp;&nbsp;&nbsp;Izbor cetke boje &nbsp;&nbsp;&nbsp;&nbsp;olovke&nbsp;&nbsp;</label>
+    <input class="boje" type="color" id="boja">	
+	
+	 <label>&nbsp;&nbsp;&nbsp;&nbsp;Izbor velicine &nbsp;&nbsp;&nbsp;&nbsp;olovke</label>
+    <input class="velicina" type=text id="izbc" value="10">
+    <button style="width: 30%" id="clear">OBRISI SVE </button>
+    <button style="width: 30%" id="cisti">OCISTI SVOJU TABLU</button>
+	
+  </div>
+	
+	 
+</div>
+	
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+  
+ 
+ 
+	
+</body>
+</html>
